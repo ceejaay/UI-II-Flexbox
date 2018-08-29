@@ -86,6 +86,11 @@ h1, h2, h3, h4, h5 {
   margin: 0 auto;
 }
 
+.services {
+  width: 880px;
+  margin: 0 auto;
+}
+
 /* header */
 
 header nav {
@@ -116,7 +121,6 @@ header nav a:last-child {
 }
 
 header .logo {
-  display: inline-block;
   margin-top: 25px;
 }
 
@@ -141,20 +145,47 @@ header .logo {
   cursor: pointer;
 }
 
+.services .main-content .text-content button {
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
 .cta .cta-text button:hover {
   background: black;
   color: white;
 }
 
 .cta img {
-  display: inline-block;
   margin-top: 69px;
 }
 
 .main-content {
+  
   border-top: 1px solid black;
   margin-top: 76px;
   padding-top: 39px;
+  border: dotted black 6px;
+}
+
+
+.services .main-content {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+  border: dotted yellow 6px;
+
+}
+.main-content .text-content {
+  border: black 1px solid;
+  width: 410px;
 }
 
 .main-content .top-content {
@@ -162,13 +193,25 @@ header .logo {
 }
 
 .main-content .top-content .text-content {
-  width: 410px;
-  display: inline-block;
+  width: 200px;
   margin-right: 34px;
+}
+
+
+.services .main-content .text-content {
+  background: lightgray;
+  height: 200px;
+  width: 250px;
+  margin: 15px;
 }
 
 .main-content .top-content .text-content:last-child {
   margin-right: 0;
+}
+
+.top-content-section {
+  border: green dotted 4px;
+
 }
 
 .main-content .middle-img {
@@ -182,7 +225,6 @@ header .logo {
 
 .main-content .bottom-content .text-content {
   width: 275px;
-  display: inline-block;
   margin-right: 12px;
 }
 
@@ -190,10 +232,25 @@ header .logo {
   margin-right: 0;
 }
 
+.bottom-content {
+  display: flex;
+  border-top: black 2px solid;
+  border: pink 5px dotted;
+}
+
+.bottom-content .bottom-text {
+  border: red dotted 3px;
+}
+
+.bottom-content .text-list {
+  border: yellow dotted 3px;
+}
+
 .contact {
   margin-top: 57px;
   border-top: 1px solid black;
   padding: 39px 10px 0;
+  border: yellow solid 7px;
 }
 
 .contact p {
@@ -201,6 +258,7 @@ header .logo {
 }
 
 footer {
+  border: dotted blue 5px;
   margin: 32px 0;
   text-align: center;
   font-size: 14px;
