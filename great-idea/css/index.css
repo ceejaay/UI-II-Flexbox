@@ -148,7 +148,7 @@ header .logo {
 .services .main-content .text-content button {
   background: white;
   vertical-align: top;
-  margin-top: 6px;
+  margin: 10px;
   padding: 8px 44px;
   font-size: 17px;
   border: 1px solid black;
@@ -164,11 +164,9 @@ header .logo {
 }
 
 .main-content {
-  
   border-top: 1px solid black;
   margin-top: 76px;
   padding-top: 39px;
-  border: dotted black 6px;
 }
 
 
@@ -180,7 +178,6 @@ header .logo {
   border-top: 1px solid black;
   margin-top: 76px;
   padding-top: 39px;
-  border: dotted yellow 6px;
 
 }
 .main-content .text-content {
@@ -189,6 +186,8 @@ header .logo {
 }
 
 .main-content .top-content {
+  display: flex;
+  justify-content: center;
   padding: 0 10px;
 }
 
@@ -200,17 +199,19 @@ header .logo {
 
 .services .main-content .text-content {
   background: lightgray;
-  height: 200px;
+  height: 300px;
   width: 250px;
   margin: 15px;
 }
 
+.services .main-content .text-content p{
+  margin: 25px;
+}
 .main-content .top-content .text-content:last-child {
   margin-right: 0;
 }
 
 .top-content-section {
-  border: green dotted 4px;
 
 }
 
@@ -234,23 +235,31 @@ header .logo {
 
 .bottom-content {
   display: flex;
+  flex-wrap: wrap;
   border-top: black 2px solid;
-  border: pink 5px dotted;
 }
 
 .bottom-content .bottom-text {
-  border: red dotted 3px;
+  order: 1;
+  height: 250px;
+  width: 300px;
+  margin: 20px;
 }
 
 .bottom-content .text-list {
-  border: yellow dotted 3px;
+  order: 3;
+  width: 200px;
+  
+}
+
+.bottom-content img {
+  order: 2;
 }
 
 .contact {
   margin-top: 57px;
   border-top: 1px solid black;
   padding: 39px 10px 0;
-  border: yellow solid 7px;
 }
 
 .contact p {
@@ -258,7 +267,6 @@ header .logo {
 }
 
 footer {
-  border: dotted blue 5px;
   margin: 32px 0;
   text-align: center;
   font-size: 14px;
