@@ -250,6 +250,7 @@ header .logo {
 
 
 .services-header-img {
+  margin-top: 30px;
   width 100%;
 }
 
@@ -266,7 +267,8 @@ header .logo {
 .services-main-content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  /*justify-content: space-between;*/
   border-top: 1px solid black;
   padding-top: 40px;
 }
@@ -274,6 +276,7 @@ header .logo {
 .services-text-cards {
   background: whitesmoke;
   width: 380px;
+  /*trbl*/
   margin: 20px 20px 40px 35px;
   border: 1px black solid;
   line-height: 20px;
@@ -284,6 +287,7 @@ header .logo {
 .services-text-cards button {
   width: 150px;
   height: 35px;
+  background: white;
   border-radius: 5px;
   border: solid 1px black;
   /* trbl */
@@ -292,6 +296,7 @@ header .logo {
 }
 .services-text-cards button:hover {
   background: black;
+  color: white;
 
 }
 .services-bottom-content {
@@ -307,7 +312,6 @@ header .logo {
   width: 420px;
   height: 150px;
   line-height: 20px;
-  border: dashed lime 10px;
 }
 
 .services-info-img {
@@ -316,7 +320,6 @@ header .logo {
 .services-text-list {
   height: 160px;
   width: 170px;
-  border: pink dotted 5px;
   padding: 20px;
 }
 
