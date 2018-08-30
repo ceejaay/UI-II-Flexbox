@@ -234,7 +234,6 @@ header .logo {
 
 /* the main services container */
 .services {
-  border: 9px black dashed;
   width: 880px;
   /* TB LR */
   margin: 0 auto;
@@ -247,7 +246,6 @@ header .logo {
   justify-content: space-between;
 
 
-  border: dotted yellow 5px;
 }
 
 
@@ -259,7 +257,6 @@ header .logo {
   width: 100%;
   /* trbl */
   margin: 40px 0 40px 0;
-  border: dashed blue 5px;
 }
 
 .services-top-content-text h1 {
@@ -270,35 +267,40 @@ header .logo {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  border-top: 3px solid black;
-  border: red dotted 8px;
+  border-top: 1px solid black;
+  padding-top: 40px;
 }
 
 .services-text-cards {
-  width: 410px;
-  margin: 20px 20px 40px 20px;
-  border: 3px dodgerblue solid;
+  background: whitesmoke;
+  width: 380px;
+  margin: 20px 20px 40px 35px;
+  border: 1px black solid;
   line-height: 20px;
+  padding: 20px;
 
 }
 
-.services-text-content button {
+.services-text-cards button {
   width: 150px;
-  height: 50px;
+  height: 35px;
   border-radius: 5px;
+  border: solid 1px black;
   /* trbl */
-  margin: 30px 0 20px 20;
+  margin: 25px 0 10px 0; 
 
 }
-.services-text-content button:hover {
+.services-text-cards button:hover {
   background: black;
 
 }
 .services-bottom-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   /*trbl*/
-  padding: 20px 0 50px; 0;
-  border-top: black 3px solid;
-  border: cyan dotted 10px;
+  padding: 50px 0 50px; 0;
+  border-top: black 1px solid;
 }
 
 .services-bottom-text {
@@ -309,12 +311,11 @@ header .logo {
 }
 
 .services-info-img {
-  border: 10px palegreen solid;
 }
 
 .services-text-list {
-  height: 200px;
-  width: 420px;
+  height: 160px;
+  width: 170px;
   border: pink dotted 5px;
   padding: 20px;
 }
@@ -325,6 +326,5 @@ header .logo {
 }
 .services-footer {
   text-align: center;
-  border: 15px yellow solid;
 }
 
