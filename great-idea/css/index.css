@@ -182,18 +182,24 @@ header .logo {
 
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
+  justify-content: space-between;
   border-top: 1px solid black;
   margin-top: 76px;
   padding-top: 39px;
 
 }
 .main-content .text-content {
-  border: black 1px solid;
+    padding: 20px;
+    border: 1px solid black;
+    width: 420px;
+    background: whitesmoke;
+    margin: 20px 0;
+  /*border: black 1px solid;
   background: lightgray;
+  padding: 20px;
   height: 200px;
   width: 350px;
-  margin: 15px;
+  margin: 15px; */
 }
 
 /* this is for index */
@@ -299,6 +305,9 @@ header .logo {
   
 }
 
+.botton-content .text-list ul li {
+  list-style: square;
+}
 /* services */
 .bottom-content img {
   order: 2;
